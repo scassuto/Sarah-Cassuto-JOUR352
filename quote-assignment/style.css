@@ -1,0 +1,30 @@
+/*
+MY COLOR PALETTE
+Light Pink - #FFD6FF
+Light Purple - #E7C6FF
+Purple - #C8B6FF
+Purple/Blue - #B8C0FF
+Blueish - #BBD0FF
+*/
+
+body {
+    background-color:#FFD6FF;
+    text-align:center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Courgette', cursive;
+    color:#BBD0FF;
+    border:3px solid #E7C6FF; 
+    padding:60px 30px 10px 30x;
+    margin:auto;
+}
+
+#highlight {
+    color:#E7C6FF;
+    font-weight:bolder;
+}
