@@ -1,5 +1,42 @@
+#name {
+    background-color:#A06CD5;
+    color:#edede9;
+    font-family: 'Nunito', sans-serif;
+}
+#title {
+ background-color:#A06CD5;
+ color:#edede9;   
+font-family: 'Nunito', sans-serif;
+}
+
+<!--how to add a background color for the top part of page--> 
+<!--what are the bootstrap icons for-->
+
+#button{
+    background-color:#edede9;
+    border:0px;
+    border-color:#7251B5;
+    border-radius: 25px;
+    padding: 10px 30px 10px 30px;
+    text-transform:uppercase;
+    margin:10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:bolder;
+}
+#button a {
+    color:#7251B5;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+#headshot {
+    width: 300px;
+    padding:0px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 1000px;
+}
 #footer {
-    background-color:#;
-    color: white;
+    background-color:#B185DB;
+    color: #edede9;
     padding: 20px 0px 20px 0px; 
+    font-family: 'Nunito', sans-serif;
 }
