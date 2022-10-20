@@ -1,3 +1,4 @@
+@media {
 #topper {
     background-color:#A06CD5;
 }
@@ -10,7 +11,7 @@ h2 {
     font-family: 'Nunito', sans-serif; 
 }
 #info {
-padding: 0px 0px 0px 200px;
+padding: 10px 0px 0px 20px;
 }
 #button{
     background-color:#edede9;
@@ -23,8 +24,8 @@ padding: 0px 0px 0px 200px;
     font-family: 'Nunito', sans-serif;
     font-weight:bolder;
 }
-button:hover{ 
-background-color:#DAC3E8; 
+#button:hover { 
+background-color:#DEC9E9; 
 }
 
 #button a {
@@ -33,11 +34,24 @@ background-color:#DAC3E8;
     font-family: 'Nunito', sans-serif;
 }
 #headshot {
-    width: 300px;
+    width: 100%;
     padding:0px;
-    margin: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
     border-radius: 1000px;
 }
+.nav {
+ background-color: #A06CD5;
+ border-top: 3px solid #edede9;
+} 
+.nav a {
+color:#edede9;
+font-family: 'Nunito', sans-serif;
+}
+.nav a:hover {
+ text-decoration: underline;
+color:#edede9;
+}
+
 #body {
     background-color:#edede9;
     color:#A06CD5;
@@ -45,10 +59,26 @@ background-color:#DAC3E8;
 }
 h3 {
  font-weight:bolder;
+ margin:30px 0px 10px 0px;
+ text-decoration: underline;
+}
+h4 {
+margin:15px 0px 10px 0px; 
 }
 #footer {
     background-color:#B185DB;
     color: #edede9;
     padding: 20px 0px 20px 0px; 
     font-family: 'Nunito', sans-serif;
+}
+}
+@media (min-width: 576px) {
+#headshot {
+    margin: 10px 10px 10px 10px;
+}
+    #h3 {
+margin:40px 0px 10px 0px;
+    }
+}
+@media (min-width: 992px) {
 }
