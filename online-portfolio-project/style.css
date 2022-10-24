@@ -73,7 +73,6 @@ margin:15px 0px 10px 0px;
 }
 }
 @media (min-width: 576px) {
-}
 #headshot {
     margin: 10px 10px 10px 10px;
 } 
@@ -82,4 +81,5 @@ margin:40px 0px 10px 0px;
     }
 }
 @media (min-width: 992px) {
+}
 }
