@@ -1,6 +1,10 @@
 @media {
     /*Phone styles here*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
+    
+    body {
+        text-align: center
+    }
     .leadimage {
         width:100%;
     }
@@ -12,39 +16,78 @@
     h2 {
     font-family: 'Roboto Slab', serif; 
     color: #F06543;
+    font-size:15px;
+    }
+    
+    .teachercomputer {
+        width: 100%;
+        
+    }
+    
+    .credit {
+        font-size: 13px;
+        color: darkgray;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: bolder;
+        
+    }
+    
+    h3 {
+    font-family: 'Roboto Slab', serif; 
+    color: black;
+    font-size:15px; 
+    font-weight: lighter;
+    
+    }
+    
+    .student {
+        width: 100%;
     }
     
     p {
     font-family: 'Fira Sans', sans-serif;
     color:black;
-    font-weight: bold   
+    font-weight: lighter;
+    font-size: 20px;
     }
     
-    h3 {
+    h4 {
     font-family:  'Fira Sans', sans-serif;
     color: black;
     font-weight:bolder;
+    font-size: 20px;
     }
     
    .topquoteline {
         width:100%;
        color: #F06543;
+       font-weight: bolder;
     }
     
    .bottomquoteline {
         width:50%;
        color: #F06543;
+        font-weight: bolder;
     }
     
     .quotetext {
         padding: 10px 10px 10px 10px;
-        
+       font-family: 'Roboto Slab', serif;  
+        color:black;
+        font-weight: lighter; 
+
     }
     
     .quotemarrk {
         font-size: 100px;
         float:left; 
         color: #F06543;
+    }
+    
+    .quoteattribution {
+font-family: 'Roboto Slab', serif;  
+    color:black;
+    font-weight: lighte;r 
     }
 }
 
@@ -61,4 +104,5 @@
 @media (min-width: 1200px) {
     /*Large-Desktop-only styles here*/
     /*This media query targets any screen that is at least 1200px wide*/
+    }
 }
