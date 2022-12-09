@@ -2,8 +2,6 @@
     /*Phone styles here*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
     
-    body {
-        text-align: center
     }
     .leadimage {
         width:100%;
@@ -65,7 +63,7 @@
     }
     
    .bottomquoteline {
-        width:50%;
+        width:100%;
        color: #F06543;
         font-weight: bolder;
     }
@@ -75,6 +73,7 @@
        font-family: 'Roboto Slab', serif;  
         color:black;
         font-weight: lighter; 
+        font-size: 30px
 
     }
     
