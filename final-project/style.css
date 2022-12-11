@@ -4,10 +4,11 @@
     
     }
     .leadimage {
-        width:100%;
-        padding-left: 10px;
-        padding-right: 10px;
+    width:100%;
+    padding-left: 10px;
+    padding-right: 10px;
     }
+
     h1 {
     font-family: 'Roboto Slab', serif;   
     color: black;
@@ -18,7 +19,7 @@
     h2 {
     font-family: 'Roboto Slab', serif; 
     color: #F06543;
-    font-size:5px;
+    font-size:15px;
     padding-left: 10px;
     }
     
@@ -29,7 +30,7 @@
     }
     
     .credit {
-        font-size: 13px;
+        font-size: 10px;
         color: darkgray;
         font-family: 'Fira Sans', sans-serif;
         font-weight: bolder;
@@ -43,8 +44,6 @@
     font-size:15px; 
     font-weight: lighter;
     padding-left: 10px;
-    }
-    
     }
     
     .students {
@@ -120,66 +119,22 @@
 
     .credit {
         font-size: 13px;
-        color: darkgray;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: bolder;
-        padding-left: 10px;
-        
     }
     
     h3 {
-    font-family: 'Roboto Slab', serif; 
-    color: black;
     font-size:15px; 
-    font-weight: lighter;
-    padding-left: 10px;
     }
     
     p {
-    font-family: 'Fira Sans', sans-serif;
-    color:black;
-    font-weight: lighter;
     font-size: 20px;
     }
     
     h4 {
-    font-family:  'Fira Sans', sans-serif;
-    color: black;
-    font-weight:bolder;
     font-size: 20px;
-    padding-left: 10px;
-    }
-    
-   .topquoteline {
-        width:100%;
-       color: #F06543;
-       font-weight: bolder;
-    }
-    
-   .bottomquoteline {
-        width:100%;
-       color: #F06543;
-        font-weight: bolder;
     }
     
     .quotetext {
-    padding: 10px 10px 10px 10px;
-    font-family: 'Roboto Slab', serif;  
-    color:black;
-    font-weight: lighter; 
-    font-size: 30px
+    font-size: 15px
+    }
 
-    }
-    
-    .quotemarrk {
-    font-size: 100px;
-    float:left; 
-    color: #F06543;
-    }
-    
-    .quoteattribution {
-    font-family: 'Roboto Slab', serif;  
-    color:black;
-    font-weight: lighter;
-    }
 }
